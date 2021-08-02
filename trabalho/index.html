@@ -1,0 +1,195 @@
+<html>
+<head>
+  <!--link da biblioteca do bootstrap-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!--o meta para configurar texto-->
+	<meta charset="utf-8">
+
+  <!--a tag title esta dando nome a pagina-->
+	<title>Flores's</title>
+
+  <!--API do google fontes-->
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <!--fontes:OpenSans Condensed, Lobster, IndieFlower e BebasNeue, respectivamente-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet"> 
+</head>
+<style>
+
+  .h1{
+    font-family: 'Lobster', cursive;
+  }
+
+  .paragrafo1{
+    font-size: medium;
+  }
+
+
+  .carousel-inner img {
+    width: 100%;
+    height: 90%;
+  }
+
+
+  .paragrafo2{
+    font-size: medium;
+  }
+
+
+  .cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Lobster', cursive;
+  }
+
+
+  .comentarios{
+    font-family:  'Lobster', cursive;
+  }
+
+  .h5{
+    font-family: 'Open Sans Condensed', cursive;
+  }
+</style>
+<body>
+  <!--Navbar-->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="index.html">
+    <img src="LogoFlores's.png" alt="logo" style="width:40px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item active"> 
+        <a class="nav-link" href="alerts.html">Mais</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contate-nos.html" target="blank">Fale conosco</a>
+      </li>
+      <li class="nav-item inactive"> 
+        <a class="nav-link" href="#">cadastre-se</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--jumbotron-->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Avisos do Criador.</h1>      
+      <p>Atenção este site/blog foi desenvolvido por um estudante de programação com a ajuda do professor e de sites de apoio.</p>
+      <p>P.S. Não se esqueça de se cadastrar para receber novos artigos, e de, nos avaliar no final da página.</p>
+    </div>
+
+      <div class="h1">
+        <h1 align="center">3 Flores</h1>
+      </div>
+      <div class="paragrafo1">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, enim non luctus tincidunt, nisi mi egestas erat, et porttitor nisl leo sed odio. Sed tincidunt quis est non sodales. Proin vulputate ultricies fermentum. Vivamus ac congue velit. Integer aliquet in est et posuere. Morbi vehicula blandit semper. Mauris mattis orci sem, vitae rutrum quam suscipit sit amet. Donec placerat volutpat finibus. Integer non placerat augue. Aenean et faucibus urna. </p>      
+        <p> Nullam ut enim lorem. Etiam ac lacus ex. Proin hendrerit, ante eu accumsan hendrerit, sem elit suscipit lectus, nec pretium lorem nisl nec ipsum. Suspendisse bibendum augue magna, id lobortis turpis fringilla eget. Morbi orci nibh, bibendum ut aliquet quis, congue sed tortor. Fusce sit amet rutrum massa. Cras elementum suscipit neque non sodales. Nam rhoncus laoreet mi nec sollicitudin. Curabitur molestie convallis gravida. Cras sit amet mi sed neque porta mollis. </p>
+      </div>      
+  </div>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Rosas.png" alt="Rosas" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Rosas</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Tulipas.png.png" alt="Tulipas" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Tulipas</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Orquidea.png" alt="Orquídeas" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Orquídeas</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Campodeflores.png" alt="Campo de flores" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Campo de flores</h3>
+      </div>   
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="paragrafo2">
+    <p> Sed urna ligula, mollis vel ligula et, rhoncus porttitor nisi. Morbi ultrices tincidunt lorem at accumsan. Phasellus ac dui ut ante imperdiet suscipit. Ut et faucibus mi. Nullam ac augue aliquam, ultrices nisl quis, molestie nibh. Praesent feugiat, velit quis auctor vehicula, mi urna gravida mauris, condimentum auctor odio ante eget metus. Maecenas porttitor tortor volutpat, pharetra eros ac, porta augue. Quisque faucibus enim nec velit vulputate interdum. Aliquam blandit iaculis odio rhoncus sagittis. Duis feugiat, erat vitae faucibus vestibulum, est orci facilisis purus, sed vehicula lorem nunc non neque. Nulla pharetra turpis augue, vitae tempor risus venenatis ac. Sed egestas in erat at sollicitudin. Nulla mollis nisl in dapibus tincidunt. Curabitur ac justo lectus. Integer rhoncus ante id mauris maximus, sed semper turpis viverra. Vivamus rutrum congue leo.</p>
+    <p>Duis posuere, arcu vel iaculis gravida, mi quam auctor lorem, vitae malesuada lorem diam quis nisl. Vivamus ornare neque tortor, sed malesuada velit euismod a. Curabitur dictum quis eros sed egestas. Nulla lacinia tempor libero vel gravida. Mauris elementum mauris eget est suscipit varius. Curabitur nulla orci, vehicula vitae dictum sit amet, eleifend venenatis elit. Sed blandit elit neque, vitae auctor arcu porta ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc cursus faucibus sodales. </p>
+  </div>
+
+  <div class="cards">
+    <div class="card img-fluid" style="width:400px">
+      <img class="card-img-top" src="card img rosa2.png" alt="Rosas" style="width:100%">
+      <div class="card-img-overlay">
+        <h4 class="card-title">Rosas</h4>
+        <p class="card-text">Cada rosa tem o seu significado. Você sabia?</p>
+        <a href="rosas.html" class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
+    <div class="card img-fluid" style="width:400px">
+      <img class="card-img-top" src="card img tulipa.png" alt="Tulipas" style="width:100%">
+      <div class="card-img-overlay">
+        <h4 class="card-title">Tulipas</h4>
+        <p class="card-text">A minha mãe ama tulipas.</p>
+        <a href="tulipas.html" class="btn btn-primary">Veja mais</a>
+      </div>
+    </div>
+    <div class="card img-fluid" style="width:400px">
+      <img class="card-img-top" src="card img orquidea.png" alt="Orquídeas" style="width:100%">
+      <div class="card-img-overlay">
+        <h4 class="card-title">Orquídeas</h4>
+        <p class="card-text">As orquídeas são as flores preferidas da minha tia.</p>
+        <a href="orquideas.html" class="btn btn-primary">Veja mais</a>
+      </div>
+    </div>
+  </div>
+
+ <div class="comentarios">
+    <h2 align="center">Envie sua opinião.</h2>
+    <p align="center">Use a área abaixo pra nos enviar a sua opinião sincera sobre o site/blog.</p>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      </div>
+      <a type="submit" class="btn btn-success" href="index.html">Enviar</a>
+    </form>
+  </div> 
+
+  <div class="campodeFloresIMG">
+    <img src="campo de flores(tulipa).png">
+  </div>
+
+  <div class="h5">
+    <h5>Feito por Luan Ribeiro</h5>
+  </div>
+
+</body>
+</html>
