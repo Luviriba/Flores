@@ -1,2 +1,2 @@
 # Flores
-Um dos meus desenvolvidos durante o curso
+Um dos meus trabalhos desenvolvidos durante o curso
